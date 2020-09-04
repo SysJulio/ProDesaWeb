@@ -748,14 +748,16 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/Fondo\ Web.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/fondo.png') center center no-repeat;
 	background-size: cover;
+	opacity: 0.9;
 }
 
 .header .header-content {
 	padding-top: 8.5rem;
 	padding-bottom: 7rem;
 	text-align: center;
+	
 	
 }
 
@@ -768,7 +770,7 @@ input[type='checkbox'] {
 }
 
 .header #js-rotating {
-	color: #40e0ee;
+	color: #000;
 }
 
 .header .p-large {
@@ -779,6 +781,13 @@ input[type='checkbox'] {
 	margin-right: 0.5rem;
 	margin-bottom: 1.25rem;
 }
+
+
+
+
+
+
+
 
 
 
@@ -1365,9 +1374,13 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
-	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/Fondo\ Web.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/fondo.png');
 	background-size: cover;	
 	text-align: center;
+	background-color: #000000;
+	opacity: 0.9;
+	
+	
 }
 
 .ex-basic-1 {
@@ -1615,6 +1628,7 @@ a:hover.back-to-top {
 	.ex-header {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
+		
 	}
 
 	.ex-basic-2 .text-container.dark {
@@ -1678,10 +1692,14 @@ a:hover.back-to-top {
 		padding-top: 13rem;
 		padding-bottom: 10rem;
 		text-align: left;
+		
 	}
 
 	.header .text-container {
 		margin-top: 6.5rem;
+		color: #000;
+		
+
 	}
 	/* end of header */
 
